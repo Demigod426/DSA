@@ -1,6 +1,6 @@
 #BRUTE FORCE
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
         for row in range(9):
             seen=set()
             for i in range(9):
@@ -25,7 +25,7 @@ class Solution:
                 for j in range(3):
                     row=(square//3)*3+i
                     col=(square % 3)*3+j
-                    if Board[row][col]==".":
+                    if board[row][col]==".":
                         continue
                     if board[row][col] in seen:
                         return False
@@ -34,10 +34,10 @@ class Solution:
 
 #HASH MAP
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
-        cols=defaultdict(set)
-        rows=defaultdict(set)
-        squares=defaultdict(set)
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
+        cols= defaultdict(set)
+        rows= defaultdict(set)
+        squares= defaultdict(set)
 
         for r in range(9):
             for c in range(9):
@@ -56,7 +56,7 @@ class Solution:
 
 #BITMASK
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
         rows=[0]*9
         cols=[0]*9
         squares=[0]*9
