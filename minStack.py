@@ -1,3 +1,4 @@
+#BRUTE FORCE
 class MinStack:
 
     def __init__(self):
@@ -25,3 +26,4 @@ class MinStack:
 
         return mini
     
+#STACK
