@@ -10,3 +10,5 @@ class Solution:
                 res[p]=i-p
             stack.append(i)
         return res
+
+# TC:O(n), SC:O(n)
