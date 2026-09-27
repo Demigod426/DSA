@@ -17,3 +17,4 @@ class Solution:
             maxArea=max(maxArea,height*(r-l+1))
         return maxArea
 
+#STACK
