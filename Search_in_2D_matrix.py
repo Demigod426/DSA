@@ -14,3 +14,5 @@ class Solution:
             else:
                 r=mid-1
         return False
+
+#ALTERNATIVE 2 STEP SOLUTION
