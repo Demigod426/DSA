@@ -23,3 +23,5 @@ class Solution:
                 if matrix[r][c] == target:
                     return True
         return False
+
+#STAIRCASE
