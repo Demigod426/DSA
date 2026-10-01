@@ -15,6 +15,8 @@ class Solution:
                 r=mid-1
         return False
 
+#BINARY SEARCH (2 PASS)
+
 #BRUTE FORCE
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
