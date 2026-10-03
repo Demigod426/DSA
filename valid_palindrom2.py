@@ -21,3 +21,5 @@ class Solution:
                 return skipl==skipl[::-1]or skipr==skipr[::-1]
             l,r=l+1,r-1
         return True
+
+#TWO POINTER OPTIMAL
