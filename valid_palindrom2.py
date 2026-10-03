@@ -9,3 +9,5 @@ class Solution:
             if newS==newS[::-1]:
                 return True
         return False
+
+#TWO POINTER
